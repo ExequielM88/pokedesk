@@ -1,0 +1,111 @@
+.form__search{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 1em 4em;
+    border: none;
+    box-shadow: 1px 5px 5px rgb(180, 176, 176);
+    
+    
+}
+.form__btn{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 1em 4em;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 5px 5px rgb(180, 176, 176);
+    
+}
+.form__input{
+    padding: 1em 6em;
+    border: none;
+    box-shadow: 1px 5px 5px rgb(180, 176, 176);
+    margin-left: 3em;
+}
+.form__container{
+    display: flex;
+}
+select{
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 18px;
+    margin-left: 3em;
+    opacity: 0.5;
+    box-shadow: 1px 5px 5px rgb(180, 176, 176);
+}
+select option {
+    opacity: 0.5;
+    background-color: rgb(235, 226, 226);
+    color: rgb(232, 72, 72);
+}
+@media only screen and (max-width: 740px) {
+    .form__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form__search{
+        background-color: red;
+        color: white;
+        font-weight: 700;
+        padding: 1em 4em;
+        border: none;
+        box-shadow: 1px 5px 5px rgb(180, 176, 176);
+        
+        
+    }
+    .form__input{
+        padding: 1em 7em;
+        border: none;
+        box-shadow: 1px 5px 5px rgb(180, 176, 176);
+        margin-left: 3em;
+        
+    }
+    select{
+        width: 90%;
+        margin-top: 1em;
+        font-size: 18px;
+        margin-left: 1em;
+        opacity: 0.5;
+        box-shadow: 1px 5px 5px rgb(180, 176, 176);
+    }
+  }
+  .form__btn{
+    padding: 1em 3em; 
+}
+  @media only screen and (max-width: 425px) {
+    .form__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form__search{
+        background-color: red;
+        color: white;
+        font-weight: 600;
+        padding: 0.5em 2em;
+        border: none;
+        box-shadow: 1px 5px 5px rgb(180, 176, 176);
+        
+        
+    }
+    .form__input{
+        padding: 0.5em 2em;
+        border: none;
+        box-shadow: 1px 5px 5px rgb(180, 176, 176);
+        margin-left: 3em;
+        
+    }
+    select{
+        width: 80%;
+        margin-top: 1em;
+        font-size: 18px;
+        margin-left: 1.5em;
+        opacity: 0.5;
+        box-shadow: 1px 5px 5px rgb(180, 176, 176);
+        
+    }
+    .form__btn{
+        padding: 0.5em 3em; 
+    }
+  }
