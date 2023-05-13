@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import useFetch from '../../hooks/useFetch'
-import "./styles/FormPoke.css"
+import "./styles/formPoke.css"
 
 const FormPoke = ({setFormUrl, url1}) => {
   
